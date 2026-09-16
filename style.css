@@ -1,0 +1,16 @@
+:root { --ink: #171717; --muted: #6b7280; --line: #e5e7eb; --accent: #0284c7; --bg: #fafaf9; }
+@media (prefers-color-scheme: dark) { :root { --ink: #ededed; --muted: #9ca3af; --line: #2a2a2a; --accent: #5cb8ea; --bg: #111; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif; padding: 40px 20px 80px; }
+main { max-width: 680px; margin: 0 auto; }
+h1 { font-size: 28px; margin: 0 0 6px; }
+h2 { font-size: 18px; margin: 36px 0 8px; }
+p, li { max-width: 66ch; }
+.meta { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+a { color: var(--accent); }
+nav a { margin-right: 16px; font-size: 14px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
+footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+.brand { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-weight: 700; }
