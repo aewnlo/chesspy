@@ -14,3 +14,5 @@ th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line
 th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
 footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
 .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-weight: 700; }
+
+.play { display:inline-block; padding:12px 20px; border-radius:12px; background:#111214; color:#fff; font-weight:600; text-decoration:none; }
