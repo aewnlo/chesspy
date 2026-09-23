@@ -1,7 +1,7 @@
 {
   "name": "Chesspy · 체스파이",
   "short_name": "Chesspy",
-  "description": "매일 20판, 숨은 체스 말을 찾는 러시 퍼즐.",
+  "description": "매일 20판, 체스 말을 놓아 숫자를 맞추는 러시 퍼즐.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
